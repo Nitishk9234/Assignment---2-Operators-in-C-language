@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int a,b,c;
+    printf("enter a two int a and b is \n");
+    scanf("%d%d",&a,&b);
+    c=a+b;
+    a=c-a;
+    b=c-a;
+    printf("swap values of two int variables a:%d and b:%d",a,b);
+    getch();
+
+}
