@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int x;
+    printf("enter a number \n");
+    scanf("%d",&x);
+    printf("print a given number without its last digit %d",x/10);
+    getch();
+
+}
