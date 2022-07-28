@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int a,b,c,d,e,f;
+    printf("enter a three digit number:");
+    scanf("%d",&a);
+    b=a/100;
+    c=a%10;
+    d=a/10;
+    e=d%10;
+    f=b+c+e;
+    printf("sum pf the three digits number is:%d",f);
+    getch();
+
+}
+
