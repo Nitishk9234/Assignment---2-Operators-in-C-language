@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+   int a,b,c,d;
+   printf("enter a three digit number :");
+   scanf("%d",&a);
+   b=a/10;
+   c=a%10;
+   d=c*100+b;
+   printf("rotate its digits by one position towards the right %d",d);
+   return 0;
+}
